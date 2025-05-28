@@ -36,7 +36,8 @@
 Используйте GCC или Clang:
 
 bash
-gcc -o lga_simulation lga_simulation.c -lm
+gcc -o LGA
+LGA.c -lm
 ```
 
 - Ключ -lm подключает математическую библиотеку.
@@ -47,11 +48,11 @@ gcc -o lga_simulation lga_simulation.c -lm
 ## Запуск программы
 
 После компиляции запустите программу:
-./lga_simulation
+./LGA
 
 
 bash
-./lga_simulation
+./LGA
 
 ---
 
@@ -60,17 +61,18 @@ bash
 Если у вас установлен MinGW, откройте командную строку и выполните:
 
 Программа запросит ввод следующих параметров:
-gcc -o lga_simulation.exe lga_simulation.c -lm
+gcc -o LGA.exe
+LGA.c -lm
 
 - Запуск программы:
-lga_simulation.exe
+LGA.exe
 
 ---
 
 ▌Для Windows (с использованием Microsoft Visual Studio)
 
 1. Создайте новый проект C Console Application.
-2. Добавьте файл lga_simulation.c в проект.
+2. Добавьте файл LGA.c в проект.
 3. В настройках проекта убедитесь, что подключена стандартная библиотека C.
 4. Постройте проект и запустите.
 
